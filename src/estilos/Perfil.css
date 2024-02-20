@@ -1,15 +1,22 @@
 .contenedor-perfil{
-  width: 1000px;
-  height: 300px;
+  width: 80%; 
+  max-width: 1300px; 
+  height: 300px; 
+  margin: 10px auto 30px; 
   display: flex;
-  background-color: papayawhip;
-  margin: 10px 10px 30px;
   justify-content: center;
+  align-items: center; 
+  background-color: papayawhip; 
+  border-radius: 20px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 .imagen-perfil{
-  height: 100%;
-  width: auto;
+  height: 100%; 
+  width: auto; 
+  border-radius: 50%; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+  object-fit: cover; 
 }
 
 .contenedor-texto-perfil{
@@ -32,3 +39,32 @@
 .texto-perfil{
   font-size: 1 rem;
  }
+
+ button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 20px; 
+}
+.boton {
+  background-color: #ffffff; 
+  border: 2px solid #ffffff; 
+  color: #4CAF50; 
+  padding: 15px 32px; 
+  text-align: center; 
+  text-decoration: none; 
+  display: inline-block; 
+  font-size: 16px; 
+  margin: 20px; 
+  cursor: pointer;
+  border-radius: 50px; 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); 
+  transition: background-color 0.3s, border-color 0.3s, color 0.3s; 
+}
